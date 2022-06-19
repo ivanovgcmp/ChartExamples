@@ -1,5 +1,5 @@
 import tkinter as tk
-
+import chart1
 
 # Creating function close program
 def do_Close():
@@ -22,7 +22,7 @@ lblChart2 = tk.Label(text = 'Нормальное распределение')
 lblChart2.place(x=160, y=148)
 
 # Adding buttons
-btnChart1 = tk.Button(window, text = 'График 1', font = ('Helvetica', 10, 'bold'))
+btnChart1 = tk.Button(window, text = 'График 1', font = ('Helvetica', 10, 'bold'), command=chart1.plot_chart)
 btnChart1.place(x=45, y=85, width=90, height=30)
 
 btnChart2 = tk.Button(window, text = 'График 2', font = ('Helvetica', 10, 'bold'))

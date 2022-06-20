@@ -45,10 +45,10 @@ btnChart4 = tk.Button(window, text = 'График 4', font = ('Helvetica', 10, 
 btnChart4.place(x=45, y=265, width=90, height=30)
 
 # Adding label & button for graph5
-lblChart5 = tk.Label(text = 'Нормальное распределение')
+lblChart5 = tk.Label(text = 'Двойная гистограмма Seaborn')
 lblChart5.place(x=160, y=328)
 
-btnChart5 = tk.Button(window, text = 'График 5', font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart5 = tk.Button(window, text = 'График 5', font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart2)
 btnChart5.place(x=45, y=325, width=90, height=30)
 
 # Adding label & button for graph6

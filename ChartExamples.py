@@ -1,6 +1,7 @@
 import tkinter as tk
 import chart1
 import chart2
+import chart3
 
 # Creating function close program
 def do_Close():
@@ -33,14 +34,14 @@ btnChart2.place(x=45, y=145, width=90, height=30)
 lblChart3 = tk.Label(text = 'Нормальное распределение - 3 графика')
 lblChart3.place(x=160, y=208)
 
-btnChart3 = tk.Button(window, text = 'График 3', font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart2)
+btnChart3 = tk.Button(window, text = 'График 3', font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
 btnChart3.place(x=45, y=205, width=90, height=30)
 
 # Adding label & button for graph4
-lblChart4 = tk.Label(text = 'Нормальное распределение')
+lblChart4 = tk.Label(text = 'Гистограмма Seaborn')
 lblChart4.place(x=160, y=268)
 
-btnChart4 = tk.Button(window, text = 'График 4', font = ('Helvetica', 10, 'bold'), command=chart2.plot_chart)
+btnChart4 = tk.Button(window, text = 'График 4', font = ('Helvetica', 10, 'bold'), command=chart3.plot_chart)
 btnChart4.place(x=45, y=265, width=90, height=30)
 
 # Adding label & button for graph5
